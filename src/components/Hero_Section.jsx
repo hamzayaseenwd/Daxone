@@ -1,18 +1,23 @@
 import React from 'react'
-import Chair_img from './chair_img'
 import Button from './button'
+import ThirtyOff from './ThirtyOff'
+import Chair_img from './Chair_img'
 
 function Hero_Section() {
   return (
     <div>
         
-    <div><Chair_img/></div>
-    <div><Button/></div>
-    <div></div>
-    <div></div>
-    <div></div>
+    <div className='flex items-center'>
+      <div> 
+        <Chair_img/>
+      </div>
     
+      <div className=''>
+        <div><ThirtyOff/></div>
+        <div><Button label="Shop Now"/></div>
+      </div>
     
+    </div>
     
     
     

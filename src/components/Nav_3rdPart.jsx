@@ -1,12 +1,16 @@
 import React from 'react'
-import Shopping_cart from './shopping_cart'
 import SearchIcon from './SearchIcon'
+import Shopping_cart from './Shopping_cart'
 
 function Nav_3rdPart() {
   return (
     <>
-    <Shopping_cart/>
+    <div>
+      <div className='flex'>
+      <Shopping_cart />
     <SearchIcon/>
+      </div>
+    </div>
     </>
   )
 }

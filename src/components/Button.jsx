@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Button() {
+function Button(props) {
   return (
     <div>
-        <button class="btn rounded-none px-16">Two</button>
+        <button class="btn rounded-none px-16">{props.label}</button>
         
     </div>
   )
