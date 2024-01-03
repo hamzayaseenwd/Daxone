@@ -3,7 +3,9 @@ import React from 'react'
 
 function Section1BGImage() {
   return (
-    <div style={{
+    <div>
+      <div style={{alignContent: "center", margin: "0px 5% 0px 5%"}}>
+      <div style={{
         backgroundImage: `url(https://daxone-demo.myshopify.com/cdn/shop/files/banner-bg-1_529befa2-5a3d-40c7-843b-7c525d69192a.jpg?v=1613736189)`,
         backgroundPosition: "center",
         backgroundSize: "cover",
@@ -13,11 +15,15 @@ function Section1BGImage() {
         height: 300
         
         }}>
-        <h1>Premium Home</h1>
-        <h1>Decorator</h1>
-        <p><a href="">Learn More</a></p>
+
+        <div style={{textAlign: 'left', paddingTop: "60px", paddingLeft: "50%"}}>
+        <h1 className='text-5xl text-[#aa8451] mb-10' >Premium Home <br /> Decorator</h1>
+        <a className=' text-[#aa8451] mb-10  ' href=" ">Learn More</a>
+        </div>
         
 
+    </div>
+    </div>
     </div>
   )
 }
