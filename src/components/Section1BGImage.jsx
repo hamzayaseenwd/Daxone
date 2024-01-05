@@ -17,8 +17,8 @@ function Section1BGImage() {
         }}>
 
         <div style={{textAlign: 'left', paddingTop: "60px", paddingLeft: "50%"}}>
-        <h1 className='text-5xl text-[#aa8451] mb-10' >Premium Home <br /> Decorator</h1>
-        <a className=' text-[#aa8451] mb-10  ' href=" ">Learn More</a>
+        <h1 className='text-5xl text-right pr-48 text-[#aa8451] mb-10' >Premium Home <br /> Decorator</h1>
+        <p className='text-right pr-48'><a className=' text-[#aa8451] mb-10   ' href=" ">Learn More</a></p>
         </div>
         
 
