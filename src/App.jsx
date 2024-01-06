@@ -5,6 +5,7 @@ import Section1 from './components/Section1'
 import Section2 from './components/Section2'
 import WinterDiscount from './components/WinterDiscount'
 import All_Products from './components/All_Products'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Section2/>
       <WinterDiscount />
       <All_Products />
+      <Footer />
     </>
   )
 }
