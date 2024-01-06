@@ -7,7 +7,7 @@ function Hero_Section() {
   return (
     <div>
         
-    <div className='flex items-center'>
+    <div className='flex flex-wrap justify-center gap-4 items-center'>
       <div> 
         <Chair_img/>
       </div>
