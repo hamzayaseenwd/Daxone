@@ -6,9 +6,9 @@ const WinterDiscount = () => {
   return (
     <div>
 
-       <div className=' flex flex-wrap justify-center lg:pl-[5%] pr-[5%] content-center md:pl-[4%] pr-[4%] content-center '>
+       <div className=' flex flex-wrap justify-center lg:pl-[5%] pr-[5%]  md:pl-[4%] pr-[4%] items-center  '>
        <div className='basis-3/5 '><WinterDiscount_Image/></div>
-        <div className='basis-2/5'><WinterDiscount_Text /></div>
+        <div className='basis-2/5 '><WinterDiscount_Text /></div>
        </div>
 
 
